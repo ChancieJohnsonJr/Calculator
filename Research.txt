@@ -1,0 +1,27 @@
+1. What are views?
+
+   - Anything being displayed on screen (an activity is an example)
+
+   What is a ViewGroup?
+
+   - a grouping of views; hosted by activities
+
+   What is View Hierarchy?
+
+   - it is a nested view where outer view is the parent and inner view is the child; this creates a hierarchy; also known as a TREE
+
+2. Constraint Layout uses the existing views to dictate position of rendering
+
+   Linear Layout - renders the views in order of implementation from top to bottom in a either vertical or horizontal way; if more than 1 child, you MUST set orientation
+
+   Coordinator Layout - no longer maintained; used to find child locations; depricated
+
+   Grid Layout - renders grid patterns with the child views and associates them to rows and columns
+
+   Relative Layout - with this layout you have to render twice
+
+3. Listeners are used to capture events in Android.  They are triggered in Android when the user interacts with an existing item in the user interface (usually a click).
+
+4. Java garbage collection is a form of memory management.  It detects any unused objects and removes them from memory which in turn, increases the amount of memory available.
+
+5. The software development life cycle is planning, then get requirements, next you design solution, then you develop solution, then you test solution, then you deploy the solution in production environment, and finally perform maintenance after it is in production
